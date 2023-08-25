@@ -20,14 +20,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[450px] md:max-w-[450px]"
-              src="./main-modified.png"
+              src="assets/main-modified.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[500px] md:max-w-[5000px]"
-            src="./main-modified.png"
+            src="assets/main-modified.png"
           />
         )}
       </div>
@@ -46,12 +46,12 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Yashi {""}
+            Sandeep {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Yadav
+              Singh
             </span>
           </p>
 
